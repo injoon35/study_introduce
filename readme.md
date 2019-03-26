@@ -42,12 +42,15 @@ git push origin master
 
 
 5. **서버에서 변경 내용을 가져옴 (수시로 함)**
+> 만약 충돌이 났다면 충돌난 파일에서 변경사항을 조정해주시고
+> 
+> 2번 4번을 다시해주세요! (커밋을 다시 만들어주세요)
 ``` shell
 git pull origin master
 ```
 
 
-6. Git 레포지토리를 복제해옴 (한번만)
+1. Git 레포지토리를 복제해옴 (한번만)
 ``` shell
 git clone GIT주소
 ```
